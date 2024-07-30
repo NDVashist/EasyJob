@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import { Image, SafeAreaView, StatusBar, StyleSheet, Text, TouchableOpacity, View } from 'react-native'
 import React from 'react'
 import { useNavigation } from '@react-navigation/native'
@@ -44,4 +45,5 @@ const styles = StyleSheet.create({
     arrowstyl: { height: 43, width: 43 },
     txt1: { fontFamily: 'Montserrat-Bold', marginRight: 15, fontSize: 24 },
     txt2: { fontFamily: 'Montserrat-Bold', marginRight: 15, fontSize: 24, color: Colors.whitetxt }
+// eslint-disable-next-line prettier/prettier
 })

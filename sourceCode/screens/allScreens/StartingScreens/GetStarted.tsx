@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import { Image, ImageBackground, SafeAreaView, StyleSheet, Text, View, StatusBar } from 'react-native'
 import React from 'react'
 import { useNavigation } from '@react-navigation/native'
