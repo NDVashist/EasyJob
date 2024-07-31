@@ -17,7 +17,7 @@ const GetStarted = () => {
                 <View style={styles.txtview}>
                     <CommonText style={styles.txtstyl}>{t("Find Your")} </CommonText>
                     <CommonText style={styles.txtstyl2}>{t("Dream Job")}</CommonText>
-                    <CommonText style={styles.txtstyl}>{Here!}</CommonText>
+                    <CommonText style={styles.txtstyl}>{t("Here!")}</CommonText>
                     <CommonText style={styles.txtstyl3}>Explore all the most exciting job roles based on your interest and study major.</CommonText>
 
                 </View>
