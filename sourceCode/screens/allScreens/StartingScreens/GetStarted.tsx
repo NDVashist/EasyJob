@@ -4,17 +4,20 @@ import React from 'react'
 import { useNavigation } from '@react-navigation/native'
 import Colors from '../../../constant/Colors'
 import { CommonText, OpacityButton } from '../../../components'
+import { useTranslation } from 'react-i18next';
+import '../../../components/i18n';
 
 const GetStarted = () => {
     const navigation = useNavigation()
+    const { t, i18n } = useTranslation();
     return (
         <SafeAreaView style={{ flex: 1, backgroundColor: 'white' }}>
             <StatusBar backgroundColor={'#fff'} />
             <ImageBackground source={require('../../../assets/Images/backgroundimg.png')} style={styles.backgroundimg}>
                 <View style={styles.txtview}>
-                    <CommonText style={styles.txtstyl}>Find Your </CommonText>
-                    <CommonText style={styles.txtstyl2}>Dream Job</CommonText>
-                    <CommonText style={styles.txtstyl}>Here!</CommonText>
+                    <CommonText style={styles.txtstyl}>{t("Find Your")} </CommonText>
+                    <CommonText style={styles.txtstyl2}>{t("Dream Job")}</CommonText>
+                    <CommonText style={styles.txtstyl}>{Here!}</CommonText>
                     <CommonText style={styles.txtstyl3}>Explore all the most exciting job roles based on your interest and study major.</CommonText>
 
                 </View>
